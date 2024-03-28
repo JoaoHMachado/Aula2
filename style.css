@@ -1,0 +1,39 @@
+.headerToDo{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.container>div{
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    margin-left: 5px;
+
+}
+.container>div:nth-last-child(1){
+    
+}
+
+span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container_Radio{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Container_Btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
