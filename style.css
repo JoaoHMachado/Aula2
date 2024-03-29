@@ -1,6 +1,15 @@
+body{
+    background-image: url('https://www.reactiongifs.com/r/2012/06/homer_lurking.gif');
+    background-repeat: round;
+}
 .headerToDo{
     display: flex;
     justify-content: center;
+    color: whitesmoke;
+}
+
+label{
+    color: whitesmoke;
 }
 
 .container{
@@ -15,7 +24,9 @@
     border-bottom: 1px solid;
     border-right: 1px solid;
     margin-left: 5px;
-
+    padding-top: 5px;
+    border-color:darkseagreen;
+    background-color: azure;
 }
 .container>div:nth-last-child(1){
     
@@ -36,4 +47,13 @@ span{
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.btnRemove{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btninserir{
+    margin-left: 10px;
+    margin-right: 10px;
 }

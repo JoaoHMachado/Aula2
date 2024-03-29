@@ -10,8 +10,9 @@ BtnInserir.addEventListener("click", SetText)
 function SetText(){
     const idLi = "Li_" + i;
     const li = document.createElement("li")
-const btnRemove = document.createElement("button")
+    const btnRemove = document.createElement("button")
     btnRemove.innerText = "Excluir"
+    btnRemove.className = "btnRemove"
     li.id = idLi
     const RemoverLi = () => {
         document.getElementById(idLi).remove()
